@@ -1,0 +1,11 @@
+a=input()
+count=0
+for ch in a:
+   if a.Count(ch)==1:
+       count+=1
+       print(count)
+
+Output:
+aabdecbd
+1
+2
