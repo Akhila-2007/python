@@ -1,0 +1,11 @@
+m=int(input("Enter m value :"))
+key1=int(input("enter key1 value :"))
+key2=int(input("enter key2 value :"))
+result=((m*key2%5)**key1)%70000000001
+print(result)
+
+output:
+Enter m value :4
+enter key1 value :5
+enter key2 value :1
+1024
