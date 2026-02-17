@@ -1,0 +1,18 @@
+from collections import Counter
+def missingNumbers(arr, brr) :
+    ca = counter(arr)
+    cb = counter(brr)
+    result = []
+    for num in cb:
+        if cb [i] != ca.get(i, 0):
+            result.append (i)
+            return sorted(result)
+
+output:
+ca={5:1,6:2,9:1,6:3}
+print(ca.get(6))
+3
+print(ca.get(9))
+1
+print(ca.get(4,0))
+0
