@@ -1,0 +1,16 @@
+V=int(input())
+W=int(input())
+if V>W or W<2 or V==0 or W==0:
+    print("invalid input")
+else:
+    fw=(W-2*V)//2
+    tw=V-fw
+    print("four-wheelers:",fw)
+    print("two wheelers",tw)
+
+
+output:
+200
+540
+four-wheelers: 70
+two wheelers 130
