@@ -1,0 +1,36 @@
+r = int(input("Enter number of roes: "))
+c = int(input("Enter number of columns: "))
+matrix = []
+print("Enter elements (0 or 1): ")
+for i in range(r):
+    row = []
+    for j in range(c):
+        val = int(input())
+        row.append(val)
+    matrix.append(row)
+max_count = 0
+row_index = 0
+for i in range(r):
+    count = matrix[i].count(1)
+    if count > max_count:
+        max_count = count
+        row_index = i + 1
+print(row_index)
+
+
+input:
+Enter number of roes: 3
+Enter number of columns: 3
+Enter elements (0 or 1): 
+0
+1
+0
+1
+1
+0
+1
+1
+1
+
+output:
+3
